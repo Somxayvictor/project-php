@@ -1,3 +1,11 @@
+
+
+<style>
+ a:hover {
+  background-color:blue;
+  color: while;
+}
+</style>
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -5,8 +13,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a style="font-family: phetsarat OT;" class="nav-link <?php echo($nav=='home' ? 'active' : '');?>" aria-current="page" href="index.php" >ຫນ້າຫຼັກ</a>
+          <li class="nav-item" >
+            <a style="font-family: phetsarat OT; " class="nav-link <?php echo($nav=='home' ? 'active' : '');?>" aria-current="page" href="index.php" >ຫນ້າຫຼັກ</a>
           </li>
           <li>
           <a  style="font-family: phetsarat OT;" class="nav-link <?php echo($nav=='sell' ? 'active' : '');?>" aria-current="page" href="about.php">ກ່ຽວກັບ</a>

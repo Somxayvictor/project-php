@@ -18,7 +18,7 @@ $subnav = 'user-list';
     include('inc/header.php');
     ?>
   </head>
-  <body class="d-flex flex-column h-100">
+  <body  class="d-flex flex-column h-100">
 <header>
   <!-- Fixed navbar -->
   <?php
@@ -40,7 +40,7 @@ $subnav = 'user-list';
                 </div>
                 <div class="col-md-12">
                     <div class="table-responsive">
-                    <table class="table table-bordered">
+                    <table  style="background-color: whitesmoke;" class="table table-bordered">
                             <thead style="font-family: phesarat OT;">
                                 <tr style="text-align: center;">
                                     <th>ລຳດັບ</th>

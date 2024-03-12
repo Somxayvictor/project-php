@@ -32,14 +32,14 @@
                     <br><br><br><br>
                 </div>
                 <div class="col-md-7">
-                    <div class="form-group mb-3">
-                        <input type="text" class="form-control" placeholder="Product No/Barcode" 
+                    <div class="form-group mb-3" >
+                        <input style="background-color: whitesmoke;font-family:phetsarat OT" type="text" class="form-control" placeholder="ໃສ່ລະຫັດສີນຄ້າຫຼືບາໂຄດຂອງສີນຄ້າ" 
                         v-on:change="doFilter($event.target.value)" v-model="filter">
                     </div>
                     <div class="table-responsive">
                         <form id="submit-form">
-                            <table class="table table-bordered">
-                                <thead style="text-align: center;">
+                            <table style="background-color:whitesmoke" class="table table-bordered">
+                                <thead style="text-align: center">
                                     <tr style="font-family: phetsarat OT;">
                                         <th>ລຳດັບ</th>
                                         <th>ລາຍການ</th>
@@ -91,7 +91,7 @@
                         v-on:click="submitSell">Sell Product</button>
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div style="background-color: whitesmoke;" class="col-md-5">
                     <div class="table-responsive">
                         <table class="table table-bordered table-sm">
                             <thead style="text-align: center;">
@@ -154,10 +154,10 @@
             </div>
         </div>
         <!-- Bill Modal -->
-        <div class="modal fade" id="billModal" tabindex="-1" 
+        <div  class="modal fade" id="billModal" tabindex="-1" 
         aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
-                <div class="modal-content">
+                <div style="background-color: lightyellow;" class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">{{ bill_no }}</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" 
@@ -170,7 +170,7 @@
                                     <tr>
                                         <td width="33%">
                                             <img src="./uploads/logo/logo2.jpeg" alt="" width="80">
-                                            <div><strong>Stock Learning</strong></div>
+                                            <div style="font-style:italic;"><strong>Minimark</strong></div>
                                         </td>
                                         <td width="34%" align="center">Bill</td>
                                         <td width="33%" align="right">

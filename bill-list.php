@@ -37,7 +37,7 @@
                 </div>
                 <div class="col-md-12">
                     <div class="table-responsive">
-                        <table class="table table-bordered">
+                        <table style="background-color: whitesmoke;" class="table table-bordered">
                             <thead style="text-align: center;">
                                 <tr style="font-family: phetsarat OT;" >
                                     <th>ລຳດັບ</th>
@@ -78,8 +78,8 @@
         <!-- Bill Modal -->
         <div class="modal fade" id="billModal" tabindex="-1" 
         aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
+            <div  class="modal-dialog modal-xl">
+                <div style="background-color: lightyellow;" class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">{{ bill_no }}</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" 
@@ -91,8 +91,8 @@
                                 <table width="100%">
                                     <tr>
                                         <td width="33%">
-                                            <img src="./uploads/logo/logo.png" alt="" width="80">
-                                            <div><strong>Stock Learning</strong></div>
+                                        <img src="./uploads/logo/logo2.jpeg" alt="" width="80">
+                                            <div><strong>Minimark</strong></div>
                                         </td>
                                         <td width="34%" align="center">Bill</td>
                                         <td width="33%" align="right">
@@ -101,14 +101,14 @@
                                         </td>
                                     </tr>
                                 </table>
-                                <table class="table table-bordered table-sm" id="print-table">
-                                    <thead>
-                                        <tr>
-                                            <th>No</th>
-                                            <th>Item</th>
-                                            <th>Qty</th>
-                                            <th>Price</th>
-                                            <th>Total Price</th>
+                                <table  class="table table-bordered table-sm" id="print-table">
+                                    <thead style="font-family: phetsarat OT;">
+                                        <tr style="text-align: center;">
+                                            <th>ລຳດັບ</th>
+                                            <th>ລາຍການ</th>
+                                            <th>ຈຳນວນ</th>
+                                            <th>ລາຄາ</th>
+                                            <th> ລາຄາທັງໝົດ</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -129,8 +129,8 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" v-on:click="print"><i class="fas fa-print"></i></button>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
+                        <button type="button" class="btn btn-primary" v-on:click="print"><i class="fa fa-print"></i></button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fa fa-times"></i></button>
                     </div>
                 </div>
             </div>

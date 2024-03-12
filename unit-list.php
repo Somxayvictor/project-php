@@ -41,7 +41,7 @@ $subnav = 'unit-list';
                 </div>
                 <div class="col-md-12">
                     <div class="table-responsive">
-                    <table class="table table-bordered">
+                    <table style="background-color: whitesmoke;" class="table table-bordered">
                             <thead style="font-family: phetsarat OTS;">
                                 <tr style="text-align: center;">
                                     <th>ລຳດັບ</th>

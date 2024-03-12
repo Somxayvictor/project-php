@@ -40,7 +40,7 @@ $subnav = 'product-list';
                 </div>
                 <div class="col-md-12">
                     <div class="table-responsive">
-                    <table class="table table-bordered">
+                    <table style="background-color: whitesmoke;" class="table table-bordered">
                             <thead style="text-align: center;">
                                 <tr style="font-family: phesarat OT;">
                                     <th>ລຳດັບ</th>

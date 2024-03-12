@@ -7,18 +7,45 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
     <title>Login</title>
+    <style>
+      .container {
+        margin-top: 100px;
+        background-color: lightblue ;
+        border-radius: 20px;
+      }
+    .hehe {
+      width: 100px;
+      height: 33px;
+      border-radius: 4px;
+      text-align: center;
+      color: white;
+      background-color: #007AFF;
+      border: solid 0px;
+      margin: 50px;
+     margin-top: 1px;
+    padding: 4px;
+    }
+    .container {
+      padding: 8px;
+  
+      height: 423px;
+    }
+    </style>
     <?php
     include('inc/header.php');
     ?>
   </head>
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100" style="background-color: whitesmoke;">
     <!-- Begin page content -->
     <main class="flex-shrink-0">
-        <div class="container">
+        <div class="container" style="border: solid 2px black;width: 350px;">
             <div class="h-100 d-flex align-items-center justify-content-center">
               <div class="row">
+              
                 <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 mt-5">
-                <h1 style="font-family: phetsarat OT;" class="mt-5">ລອກອີນສູ່ລະບົບ</h1>
+                <img src="./uploads/logo/logo2.jpeg" alt="" width="60">
+                  
+                <h1 style="font-family: phetsarat OT;text-align:center;font-size:25px" class="mt-5">ລອກອີນສູ່ລະບົບ</h1>
                 </div>
                 <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12">
                   <form style="font-family: phetsarat OT;" id="login-form">
@@ -32,6 +59,11 @@
                       <input type="password" name="password" class="form-control" id="exampleInputPassword1">
                     </div>
                     <button type="button" class="btn btn-primary btn-submit">ລອກອີນ</button>
+                   
+                    <button type="button" class="hehe" onclick="alert('ອີເມວ:admin123#@gmail.com/ລະຫັດ:admin123#@')">ຂໍ້ມູນລອກອີນ</button>
+                    
+
+       
                   </form>
                 </div>
               </div>

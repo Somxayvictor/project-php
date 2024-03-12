@@ -13,12 +13,62 @@ $subnav = 'home';
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
     <title>Home</title>
+    <style>
+
+ .hehe {
+  width: 40%;
+height: 300px;
+  }
+  img {
+    border-radius: 50px;
+  }
+  .d {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+button {
+  padding: 20px;
+  width: 140%;
+  border-radius: 10px green;
+  background-color: whitesmoke;
+}
+.a {
+  border-radius: 20px;
+font-size: 23px;
+}
+.b {
+  border-radius: 20px;
+  font-size: 23px;
+}
+.c {
+  border-radius: 20px;
+ padding-top: 30px;
+ font-size: 23px;
+}
+h1 {
+  font-size: 5lh;
+  margin: 40px;
+}
+.a:hover {
+  color: white;
+  background-color: blue;
+}
+.b:hover {
+  color: white;
+  background-color: blue;
+}
+.c:hover {
+  color: white;
+  background-color: blue;
+}
+    </style>
     <?php
     include('inc/header.php');
     ?>
   </head>
   
-  <body class="d-flex flex-column h-100" style="background-image:url('webbg2.jpeg');">
+  <body class="d" style="background-image:url('sale-bk.jpeg');">
 <header>
   <!-- Fixed navbar -->
   <?php
@@ -32,9 +82,15 @@ $subnav = 'home';
             <div class="h-100 d-flex align-items-center justify-content-center">
               <div class="row">
                 <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 mt-5">
-                  <h1 class="mt-5" style="font-family: phetsarat OT,red" >Welcome to Stock-Shop</h1>
+                <h1 class="mt-5" style="font-family: phetsarat OT; color: whitesmoke;">ລະບົບຂາຍເຄື່ອງ</h1><br><br><br>
                 </div>
+              <div style="font-family: phetsarat OT;">
+                <a href="about.php"><button class="a">ກ່ຽວກັບ</button><br><br></a>
+                <a href="sell.php"><button class="b">ຈັດການການຂາຍ</button><br><br></a>
+                <a href="product-list.php"><button class="c">ຈັດການສີນຄ້າ</button></a>
               </div>
+              </div>
+              
             </div>
         </div>
     </main>

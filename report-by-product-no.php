@@ -60,7 +60,7 @@ $subnav = 'report-by-product_no';
                 </div>
                 <div class="col-md-12">
                     <div class="table-responsive">
-                        <table class="table table-bordered">
+                        <table style="background-color: whitesmoke;" class="table table-bordered">
                             <thead>
                                 <tr>
                                     <th>No</th>
